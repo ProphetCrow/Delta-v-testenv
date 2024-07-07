@@ -31,16 +31,16 @@
     rules: ghost-role-information-listeningop-rules
     requirements: # Worth considering these numbers for the goal of making sure someone willing to MRP takes this.
     - !type:OverallPlaytimeRequirement
-      time: 259200 # 72 hours
+      time: 0 #259200 # 72 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 40000 # 11.1 hours
+      time: 0 #40000 # 11.1 hours
     - !type:DepartmentTimeRequirement
       department: Civilian
-      time: 40000 # 11.1 hours
+      time: 0 #40000 # 11.1 hours
     - !type:DepartmentTimeRequirement
       department: Command
-      time: 40000 # 11.1 hours
+      time: 0 #40000 # 11.1 hours
 
 - type: entity
   parent: BaseAntagSpawner

@@ -9,13 +9,13 @@
 #      time: 36000 # DeltaV - 10 hours
     - !type:RoleTimeRequirement
       role: JobLawyer
-      time: 36000 # 10 hours
+      time: 0 #36000 # 10 hours
     - !type:RoleTimeRequirement
       role: JobProsecutor
-      time: 36000 # 10 hours
+      time: 0 #36000 # 10 hours
     - !type:OverallPlaytimeRequirement
-      time: 90000 # 25 hours
-    - !type:WhitelistRequirement # whitelist requirement because I don't want any dingus judges
+      time: 0 #90000 # 25 hours
+#    - !type:WhitelistRequirement # whitelist requirement because I don't want any dingus judges
   weight: 20
   startingGear: CJGear
   icon: "JobIconChiefJustice"
