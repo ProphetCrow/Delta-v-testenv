@@ -4,6 +4,9 @@
   description: job-description-hos
   playTimeTracker: JobHeadOfSecurity
   requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 0 #72000 # DeltaV - 20 hours
     - !type:RoleTimeRequirement
       role: JobWarden
       time: 0 # 14400 #DeltaV 4 hrs

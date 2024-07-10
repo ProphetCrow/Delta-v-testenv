@@ -16,3 +16,7 @@ uplink-generic-radio-implanter-desc = A cranial implant with a bluespace compart
 
 uplink-pistol-waffle-name = Waffle Iron
 uplink-pistol-waffle-desc = Developed by Waffle Corp, this sidearm packs the power of a full sized laser rifle into the concealable frame of a pistol. This weapon has an external magazine, which can be swapped with standard power cells.
+
+uplink-doorjack-name = Airlock Access Override
+uplink-doorjack-desc = A specialized cryptographic sequencer, designed solely to doorjack NanoTrasen's updated airlocks. Does not tamper with anything else.
+
