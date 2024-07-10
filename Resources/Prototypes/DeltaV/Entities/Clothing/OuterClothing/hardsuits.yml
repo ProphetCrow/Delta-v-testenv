@@ -24,8 +24,8 @@
         Caustic: 0.75
         Heat: 0.75
   - type: ClothingSpeedModifier
-    walkModifier: 0.75
-    sprintModifier: 0.75
+    walkModifier: 0.80
+    sprintModifier: 0.80
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatStandard
   - type: AllowSuitStorage
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCombatRiot
-  name: riot combat hardsuit
-  description: A purpose-built combat suit designed for crowd control against armed combatants in low pressure environments.
+  name: heavy combat hardsuit
+  description: A heavy-duty combat suit designed to protect the user against all manner of threats in low pressure enviroments. While heavier than the standard model, this version provides a greater deal of protection.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/riot.rsi
@@ -107,15 +107,15 @@
   - type: Armor # More protective than a standard security hardsuit, but far slower.
     modifiers:
       coefficients:
-        Blunt: 0.50
-        Slash: 0.50
-        Piercing: 0.50
+        Blunt: 0.30
+        Slash: 0.30
+        Piercing: 0.30
         Radiation: 0.70
         Caustic: 0.70
-        Heat: 0.70
+        Heat: 0.50
   - type: ClothingSpeedModifier
-    walkModifier: 0.65
-    sprintModifier: 0.65
+    walkModifier: 0.70
+    sprintModifier: 0.70
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatRiot
   - type: AllowSuitStorage
@@ -123,8 +123,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCombatRiot
   id: ClothingOuterHardsuitCombatWarden
-  name: warden's riot combat hardsuit
-  description: A purpose-built combat suit designed for crowd control against armed combatants in low pressure environments. This one has station security and warden's rank markings.
+  name: warden's heavy combat hardsuit
+  description: A heavy-duty combat hardsuit designed to protect the user against all manner of threats in low pressure environments. This one is bearing security markings with an insignia on the left shoulder that reads 'This we'll defend'.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/warden.rsi
@@ -157,7 +157,7 @@
         Piercing: 0.50
         Radiation: 0.75
         Caustic: 0.75
-        Heat: 0.75
+        Heat: 0.50
   - type: ClothingSpeedModifier
     walkModifier: 0.80
     sprintModifier: 0.80
