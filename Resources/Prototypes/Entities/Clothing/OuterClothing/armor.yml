@@ -6,13 +6,13 @@
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: ClothingOuterArmorBasic
   name: armor vest
-  description: A standard Type I armored vest that provides decent protection against most types of damage.
+  description: A standard armored vest that provides decent protection against most types of damage without slowing you down.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/security.rsi
-  - type: Armor #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
+  - type: Armor  #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
     modifiers:
       coefficients:
         Blunt: 0.70
@@ -50,18 +50,20 @@
       coefficients:
         Blunt: 0.4
         Slash: 0.4
-        Piercing: 0.7
+        Piercing: 0.8
         Heat: 0.9
         Caustic: 0.9
   - type: ExplosionResistance
-    damageCoefficient: 0.9
+    damageCoefficient: 0.75
+  - type: ClothingSpeedModifier
+    walkModifier: 0.90
+    sprintModifier: 0.90
   - type: GroupExamine
-
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBulletproof
   name: bulletproof vest
-  description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
+  description: A lightweight bulletproof vest that specializes in protecting the wearer against projectile weaponry.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
@@ -70,9 +72,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.4
+        Blunt: 0.90
+        Slash: 0.75
+        Piercing: 0.3
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.80

@@ -28,23 +28,24 @@
   parent: ClothingOuterBaseMedium
   id: ClothingOuterArmorDuraVest
   name: durathread vest
-  description: A tight-fitting and sturdy armor vest, reinforced with durathread weave to protect against sharp objects and blunt force trauma.
+  description: A tight-fitting and padded armor vest, reinforced with durathread weave.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Armor/duravest.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Armor/duravest.rsi
-  - type: Armor # Good against stabs and knocks, offers minimal protection from gunshots and lasfire.
+  - type: Armor # Good against stabs and knocks, offers minimal protection from gunshots.
     modifiers:
       coefficients:
         Blunt: 0.60
         Slash: 0.60
         Piercing: 0.90
-        Heat: 0.90
+        Heat: 0.60
   - type: ExplosionResistance # Better than nothing against a blast or shockwave.
-    damageCoefficient: 0.90
+    damageCoefficient: 0.80
   - type: AllowSuitStorage
-
+  - type: GroupExamine
+  
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorARC
@@ -58,14 +59,14 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.40
-        Slash: 0.40
+        Blunt: 0.30
+        Slash: 0.30
         Piercing: 0.70
         Heat: 0.70
   - type: ClothingSpeedModifier
-    walkModifier: 0.75
-    sprintModifier: 0.75
-  - type: ExplosionResistance # Almost as good as a plate carrier! Still not going to save you from most bombs though.
-    damageCoefficient: 0.80
+    walkModifier: 0.80
+    sprintModifier: 0.80
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
   - type: GroupExamine
   - type: AllowSuitStorage

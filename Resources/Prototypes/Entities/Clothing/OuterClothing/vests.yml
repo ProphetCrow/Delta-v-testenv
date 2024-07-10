@@ -12,8 +12,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6 #ballistic plates = better protection
-        Slash: 0.6
+        Blunt: 0.9 #ballistic plates = better protection - ballistic plates are meant to defeat bullets, its the vest thats absorbing the blunt damage
+        Slash: 0.75
         Piercing: 0.3
         Heat: 0.9
   - type: ExplosionResistance
@@ -33,9 +33,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7 #slightly better overall protection but slightly worse than bulletproof armor against bullets seems sensible
-        Slash: 0.7
-        Piercing: 0.5
+        Blunt: 0.9 #slightly better overall protection but slightly worse than bulletproof armor against bullets seems sensible
+        Slash: 0.75
+        Piercing: 0.3
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.9
