@@ -111,7 +111,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,4,0
+    - 0,0,4,1
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
@@ -165,7 +165,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,4,0
+    - 0,0,4,1
     sprite: Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/pump.rsi # Delta-V
@@ -189,10 +189,12 @@
   - type: Clothing
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V
   - type: Item
-    size: Small
+    size: Normal
+    shape:
+    - 0,0,2,1
     sprite: Objects/Weapons/Guns/Shotguns/sawn_inhands_64x.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 2
   - type: BallisticAmmoProvider
     capacity: 2
   - type: Construction
@@ -248,7 +250,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,4,0
+    - 0,0,4,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
@@ -272,7 +274,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,4,0
+    - 0,0,3,1
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun_inhands_64x.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun

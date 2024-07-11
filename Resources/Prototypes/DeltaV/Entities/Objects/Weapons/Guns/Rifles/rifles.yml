@@ -13,10 +13,10 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: GunWieldBonus
     minAngle: -20
-    maxAngle: -30
+    maxAngle: -32
   - type: Gun
     minAngle: 21
-    maxAngle: 54
+    maxAngle: 40
     angleIncrease: 6
     angleDecay: 24
     fireRate: 5
@@ -62,8 +62,6 @@
   description: The beginning of the end is heralded by the song of a Jackdaw. Uses .25 caseless ammo.
   suffix: Deathsquad
   components:
-  - type: Item
-    size: Large
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
     layers:
@@ -170,6 +168,11 @@
   - type: Appearance
   - type: Clothing
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/tenebra.rsi
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,3,1 #bullpup
+
 
 - type: entity
   name: M-90

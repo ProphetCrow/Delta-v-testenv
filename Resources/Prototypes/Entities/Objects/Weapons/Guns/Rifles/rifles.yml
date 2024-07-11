@@ -8,6 +8,8 @@
   - type: Sprite
   - type: Item
     size: Huge
+    shape:
+    - 0,0,4,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
     quickEquip: false
@@ -65,6 +67,8 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
     fireRate: 5
+    minAngle: 21
+    maxAngle: 42   
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
   - type: ChamberMagazineAmmoProvider
@@ -97,7 +101,7 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-
+  
 - type: entity
   name: M-90gl
   parent: BaseWeaponRifle
@@ -140,6 +144,10 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,3,1 #bullpup
 
 - type: entity
   name: Lecter

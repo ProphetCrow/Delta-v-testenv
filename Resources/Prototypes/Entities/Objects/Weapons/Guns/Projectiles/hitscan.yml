@@ -80,7 +80,7 @@
   id: XrayLaser
   damage:
     types:
-      Heat: 10
+      Heat: 16
       Radiation: 10
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
@@ -96,7 +96,7 @@
   id: RedHeavyLaser
   damage:
     types:
-      Heat: 28
+      Heat: 30
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_beam_heavy
@@ -111,7 +111,7 @@
   id: Pulse
   damage:
     types:
-      Heat: 35
+      Heat: 32
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_blue

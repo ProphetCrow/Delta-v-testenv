@@ -50,6 +50,10 @@
           Disabler: { state: mode-disabler }
           Lethal: { state: mode-lethal }
           Special: { state: mode-stun } # Unused
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,3,1 #bullpup / carbine
 
 - type: entity
   name: x-01 multiphase energy gun
@@ -245,7 +249,7 @@
     soundEmpty:
       path: /Audio/DeltaV/Weapons/Guns/Empty/dry_fire.ogg
     selectedMode: SemiAuto
-    fireRate: 3
+    fireRate: 2.2
     availableModes:
       - SemiAuto
   - type: Battery
@@ -259,3 +263,7 @@
     steps: 5
     zeroVisible: true
   - type: Appearance
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,3,1 #bullpup / carbine
