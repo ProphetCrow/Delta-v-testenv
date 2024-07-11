@@ -38,13 +38,13 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 120
+            damage: 180
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 80 #40 #This is probably enough damage before it breaks ## Its really not
+            damage: 120 #40 #This is probably enough damage before it breaks ## Its really not
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -163,7 +163,7 @@
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 30 #Weaker shield
+            damage: 50 #Weaker shield
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -213,13 +213,13 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 40
+            damage: 60
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 20 #Very weak shield
+            damage: 50 #Very weak shield
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -250,6 +250,7 @@
           Blunt: 0.95
           Slash: 0.95
           Piercing: 0.95
+          Heat: 1.20
       activeBlockModifier:
         coefficients:
           Blunt: 0.85
@@ -266,13 +267,13 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 40
+            damage: 60
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 20
+            damage: 50
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -352,7 +353,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 40
+            damage: 80
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -448,7 +449,7 @@
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 100
+            damage: 120
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -521,13 +522,13 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 100
+            damage: 120
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 80
+            damage: 100
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
